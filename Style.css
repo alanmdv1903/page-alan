@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+:root {
+    --cor_principal: yellow;
+}
+
+body {
+    background-image: url("bkg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+}
+
+.profile-image img {
+    width: 150px;
+    border-radius: 100px;
+    border: 3px solid black;
+}
+
+.profile-info {
+    color: rgb(0, 0, 0);
+    width: 800px;
+    margin: 0 auto;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Estilo da lista */
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+ul li {
+    padding: 3px 0px;
+}
+
+ion-icon {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icons add-outline {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
